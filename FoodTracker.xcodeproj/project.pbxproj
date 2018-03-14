@@ -13,6 +13,7 @@
 		15359EE9205811EC006E121F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15359EE8205811EC006E121F /* Assets.xcassets */; };
 		15359EEC205811EC006E121F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15359EEA205811EC006E121F /* LaunchScreen.storyboard */; };
 		1AA996DF20597BD2002B2E33 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA996DE20597BD2002B2E33 /* RatingControl.swift */; };
+		1AA996E1205997CB002B2E33 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA996E0205997CB002B2E33 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		15359EEB205811EC006E121F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15359EED205811EC006E121F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AA996DE20597BD2002B2E33 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		1AA996E0205997CB002B2E33 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				15359EEA205811EC006E121F /* LaunchScreen.storyboard */,
 				15359EED205811EC006E121F /* Info.plist */,
 				1AA996DE20597BD2002B2E33 /* RatingControl.swift */,
+				1AA996E0205997CB002B2E33 /* Meal.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA996E1205997CB002B2E33 /* Meal.swift in Sources */,
 				15359EE4205811EB006E121F /* ViewController.swift in Sources */,
 				1AA996DF20597BD2002B2E33 /* RatingControl.swift in Sources */,
 				15359EE2205811EB006E121F /* AppDelegate.swift in Sources */,
