@@ -17,6 +17,8 @@ class ViewController: UIViewController, UITextFieldDelegate,
     @IBOutlet weak var mealNameLabel: UILabel!
     
     @IBOutlet weak var photoImageView: UIImageView!
+        
+    @IBOutlet weak var ratingControl: RatingControl!
     
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         nameTextField.resignFirstResponder()
@@ -36,12 +38,7 @@ class ViewController: UIViewController, UITextFieldDelegate,
         }
         photoImageView.image = selectedImage
         dismiss(animated: true, completion: nil)
-    }
-    
-    
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default Text"
-    }
+    }    
     
     override func viewDidLoad() {
         super.viewDidLoad()
