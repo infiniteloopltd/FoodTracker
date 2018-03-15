@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate,
+class MealViewController: UIViewController, UITextFieldDelegate,
                       UIImagePickerControllerDelegate,
                       UINavigationControllerDelegate {
 
     @IBOutlet weak var nameTextField: UITextField!
-    
-    @IBOutlet weak var mealNameLabel: UILabel!
     
     @IBOutlet weak var photoImageView: UIImageView!
         
@@ -57,18 +55,13 @@ class ViewController: UIViewController, UITextFieldDelegate,
     }
 
     func textFieldDidEndEditing(_ textField: UITextField) {
-        mealNameLabel.text = textField.text
+        
     }
     
      func textField(_ textField: UITextField,
                        shouldChangeCharactersIn range: NSRange,
                     replacementString string: String) -> Bool {
-       if let text = textField.text,
-           let textRange = Range(range, in: text) {
-           let updatedText = text.replacingCharacters(in: textRange,
-                                                       with: string)
-           mealNameLabel.text = updatedText
-        }
+       
         return true
         
      }
