@@ -23,6 +23,10 @@ class MealViewController: UIViewController, UITextFieldDelegate,
     
     var meal: Meal?
     
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         nameTextField.resignFirstResponder()
         let imagePickerController = UIImagePickerController()
